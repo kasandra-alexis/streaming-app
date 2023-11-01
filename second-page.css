@@ -1,0 +1,61 @@
+/* Common styles for all screen sizes */
+body {
+    background-color: #00152A;
+    color: white;
+}
+
+form {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.div {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 38px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+button.group {
+    background-color: #4C74A8;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 40px;
+    display: block;
+    margin: 20px auto;
+}
+
+.already-have-an {
+    text-align: center;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust text size for smaller screens */
+    }
+
+    form {
+        width: 95%; /* Increase form width for better mobile display */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 16px; /* Adjust text size for smaller screens */
+    }
+
+    button.group {
+        font-size: 18px; /* Adjust button text size for smaller screens */
+    }
+}

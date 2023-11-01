@@ -121,3 +121,35 @@
     height: 47px;
     top: 0;
     left: 0;
+  }
+  
+  .box .overlap-group {
+    position: relative;
+    width: 226px;
+    height: 47px;
+    background-color: #4b73a7;
+    border-radius: 17px;
+  }
+  
+  .box .text-wrapper-2 {
+    position: absolute;
+    top: 11px;
+    left: 68px;
+    font-family: "Kumbh Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .img {
+    position: absolute;
+    width: 240px;
+    height: 146px;
+    top: 213px;
+    left: 73px;
+    object-fit: cover;
+  }
+  
+  
